@@ -1,0 +1,157 @@
+@font-face {
+	font-family: ALSHaussHairline;
+	src: url(fonts/ALSHaussHairline.ttf);
+}
+
+@font-face {
+	font-family: ALSHaussMedium;
+	src: url(fonts/ALSHaussMedium.ttf);
+}
+
+@font-face {
+	font-family: ALSHaussMediumItalic;
+	src: url(fonts/ALSHaussMediumItalic.ttf);
+}
+
+@font-face {
+	font-family: ALSHaussBlackExpanded;
+	src: url(fonts/ALSHaussBlackExpanded.ttf);
+}
+
+@font-face {
+	font-family: ALSHaussBold;
+	src: url(fonts/ALSHaussBold.ttf);
+}
+
+p {
+	color: #fff;
+	font-size: 25px;
+	font-family: ALSHaussMediumItalic;
+	margin: 50px 150px;
+}
+
+body {
+	background: rgb(0, 0, 0);
+}
+
+h1 { 
+	color: #fff;
+	font-size: 48px;
+	font-family: ALSHaussBlackExpanded;
+	text-align: center;
+	margin-top: -55px;
+}
+
+a {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 16px;
+	font-family: ALSHaussBold;
+	line-height: 20px;
+}
+
+header {
+	text-align: justify;
+    letter-spacing: 1px;
+    height: 7em;
+	font-size: 20px;
+    padding-left: 50px;
+	padding-top: 15px;
+    color: #fff;
+}
+
+a:hover{
+	color: #fd4820;
+}
+
+h2 {
+	color:#ffd600;
+	font-size: 25px;
+	font-family: monospace;
+	font-style: normal;
+    text-shadow: 1px 0 1px rgb(0, 0, 0), 
+    0 1px 1px rgb(0, 0, 0), 
+    -3px 0 3px rgb(0, 0, 0),  
+    0 -1px 1px rgb(0, 0, 0);
+}
+
+img {
+	margin-top: 1em 1em;
+	border: 2px solid #fff;
+}
+
+.cover {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 50%;
+	height: 50%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.scenario {
+	text-align: justify;
+}
+
+.char {
+	color: #fff;
+	font-size: 25px;
+	font-family: ALSHaussMediumItalic;
+	font-size: 18px;
+	float: right;
+}
+
+.char_img {
+	margin: 15px 15px;
+	width: 20%;
+	height: 20%;
+	float: left;
+}
+
+.char_img2 {
+	margin: 15px 15px;
+	width: 40%;
+	height: 40%;
+	float: left;
+	text-align: center;
+}
+
+.chars {
+	padding-top: 30px;
+	width: 70%;
+	margin-left: auto;
+    margin-right: auto;
+	list-style-type: none;
+}
+
+.char_desc {
+	color: #fff;
+	font-size: 20px;
+	font-family: ALSHaussMediumItalic;
+	margin-top: 50px;
+}
+
+.trailer {
+	text-align: justify;
+}
+
+.video {
+	
+}
+
+.outer {
+	width: 50%;
+	height: 50%;
+    border-radius: 20px;
+	text-align: center;
+	border: 2px solid #fff;
+}
+
+
+.ar {
+    color: #ffffff;
+	font-size: 25px;
+	font-family: monospace;
+	text-decoration: none;
+}
